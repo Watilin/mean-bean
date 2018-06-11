@@ -1,0 +1,57 @@
+[
+  {
+    "type": "spritesheet",
+    "name": "beanSprites",
+    "url": "assets/bean-sprites.png",
+    "spriteX": 64,
+    "spriteY": 64
+  }, {
+    "type": "audio",
+    "name": "yepee1",
+    "url": "assets/yepee1.ogg"
+  }, {
+    "type": "audio",
+    "name": "yepee2",
+    "url": "assets/yepee2.ogg"
+  }, {
+    "type": "audio",
+    "name": "yepee3",
+    "url": "assets/yepee3.ogg"
+  }, {
+    "type": "audio",
+    "name": "yepee4",
+    "url": "assets/yepee4.ogg"
+  }, {
+    "type": "audio",
+    "name": "yehaa1",
+    "url": "assets/yehaa1.ogg"
+  }, {
+    "type": "audio",
+    "name": "yehaa2",
+    "url": "assets/yehaa2.ogg"
+  }, {
+    "type": "audio",
+    "name": "yehaa3",
+    "url": "assets/yehaa3.ogg"
+  }, {
+    "type": "audio",
+    "name": "yehaa4",
+    "url": "assets/yehaa4.ogg"
+  }, {
+    "type": "audio",
+    "name": "stack1",
+    "url": "assets/stack1.ogg"
+  }, {
+    "type": "audio",
+    "name": "stack2",
+    "url": "assets/stack2.ogg"
+  }, {
+    "type": "audio",
+    "name": "stack3",
+    "url": "assets/stack3.ogg"
+  }, {
+    "type": "audio",
+    "name": "stack4",
+    "url": "assets/stack4.ogg"
+  }
+]

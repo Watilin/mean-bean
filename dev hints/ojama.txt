@@ -1,0 +1,24 @@
+Ojama (garbage)
+
+Whenever a rensa is achieved, Ojama (Garbage blocks) are sent to the
+opponent. The bigger the Fluent Rensa is, the more ojamas are sent to
+the opponent. It is calculated by the overall score of the chain divided
+by 70 and rounded up to the nearest integer. For example:
+
+  * Player A forms a group of 4 red puyos as a single chain.
+  * The score card reads "40 x 1" (Simply by the following:
+      (Puyo * 10) x (Puyo - 3) -> (4 * 10) x (4 - 3) -> 40 x 1).
+  * 40 x 1 is the total score of the chain, so this is divided by 70,
+      to give 0.571 (to 3.s.f)
+  * This value is rounded up to the nearest integer, which is 1.
+  * One ojama will fall on the opponent's grid.
+
+If more puyos are erased in succession due to a Fluent Rensa, the amount
+of garbage will keep going up until the chain ends. Ojama puyos are
+dropped in rows of six, with the extra ojamas distributed in random
+columns. If more than 30 ojamas are sent, they will be dropped in groups
+of 30.
+
+Ojama block the opponent's playing field, and can cause them to lose if
+they reach up to the top of the grid. Ojama are eliminated if puyos are
+eliminated adjacent to them.

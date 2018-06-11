@@ -1,0 +1,21 @@
+/* Scoring Formula
+ * https://puyonexus.com/wiki/Scoring
+ *
+ * score = (10 * puyoCount) * (chainPower + colorBonus + groupBonus)
+ *
+ * Puyo Count: number of puyo cleared in the chain.
+ * Chain Power: these values are listed in the Chain Power Table.
+ *
+ * Color Bonus: how many different colors were involved in the combo
+ *
+ * Colors   1   2   3   4   5
+ * Bonus    0   3   6  12  24
+ *
+ * Group Bonus: how many puyos per group
+ *
+ * Puyo in Group   4   5   6   7   8   9  10  11+
+ * Bonus           0   2   3   4   5   6   7  10
+ *
+ * The value of (chainPower + colorBonus + groupBonus) is limited to
+ * between 1 and 999 inclusive.
+ */

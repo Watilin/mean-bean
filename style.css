@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+html { height: 100%; }
+body {
+  height: 98%;
+  padding: 1% 0;
+  overflow-y: hidden;
+  margin: 0 1em;
+  background-color: #000957;
+  background-image:
+    linear-gradient(to bottom, transparent, black),
+    url("robotnick-blue.png");
+  background-position: top center;
+  color: white;
+  font-family: Consolas, "Lucida Console", "Courier New";
+  font-variant: small-caps;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0.4ex 1ex;
+}
+
+#arena {
+  display: block;
+  background: url("assets/arena640x448.png");
+  border: solid 1px black;
+  margin: 1em auto;
+  position: relative;
+}
+
+/*
+div.grid {
+  position: absolute;
+  display: table;
+  border-spacing: 1ex;
+  overflow: hidden;
+}
+
+img.bean {
+  position: absolute;
+}
+img.bean.in-group {
+  outline-style: solid;
+  outline-width: 2px;
+}
+*/
+
+a.startButton {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 1em;
+  background: black;
+  opacity: 0.5;
+  color: white;
+  text-decoration: none;
+
+  transition-property: opacity, text-shadow;
+  transition-duration: 0.4s, 0.8s;
+}
+a.startButton:hover {
+  opacity: 0.8;
+  text-shadow: 0 0 0.5ex white;
+}
+
+#howto {
+  position: relative;
+  margin: 1em auto;
+  padding: 1ex;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 1em;
+  width: 62%;
+  text-align: center;
+}
+#howto ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#howto li {
+  margin: 1ex 1em;
+}
+kbd {
+  display: inline-block;
+  height: 2ex;
+  min-width: 2ex;
+  padding: 0.5ex;
+  border: solid thin #222;
+  background: linear-gradient(black, #333);
+  border-radius: 2px;
+}
+
+#details {
+  font-size: smaller;
+  background: rgba(0, 0, 0, 0.8);
+  border: solid thin #b30;
+  margin: 1em;
+  border-radius: 6px;
+}
+#details h2 {
+  background: #b30 linear-gradient(#b30, #a10);
+  text-shadow: 1px 1px 2px black;
+  border-radius: 4px 4px 0 0;
+}
+#details p {
+  margin: 1em;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Dr Robotnick’s Mean Bean Machine</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="polyfill.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+
+<h1><span>Dr Robotnick’s</span> Mean Bean Machine</h1>
+
+<div id="arena"></div>
+
+<!-- <audio id="music" src="vs-music.ogg" loop preload="auto">
+  <source src="vs-music.ogg" type="audio/ogg">
+</audio> -->
+
+<section id="howto">
+  <h2>Comment jouer</h2>
+  <ul>
+    <li><kbd>Q</kbd>, <kbd>S</kbd>, <kbd>D</kbd>&#x202F;: déplacer</li>
+    <li><kbd>&larr;</kbd>, <kbd>&rarr;</kbd>&#x202F;: tourner</li>
+    <!-- <li><kbd>Espace</kbd>&#x202F;: pause</li> -->
+  </ul>
+</section>
+
+</body>
+<script>
+
+let arena = Arena.create(document.getElementById('arena'));
+
+</script>
+</html>
